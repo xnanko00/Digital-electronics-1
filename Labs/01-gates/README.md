@@ -5,7 +5,7 @@
 ## De Morganove zakony
 
 ###vzorec
-![Vzorce](/Images/vzorec1.gif)
+![Vzorce](/Labs/01-gates/Images/vzorec1.gif)
 
 ###VHDL kód
 ```
