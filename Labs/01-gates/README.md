@@ -2,6 +2,8 @@
 
 ## GitHub link
 
+https://github.com/xnanko00/Digital-electronics-1
+
 # 2. cvičenie
 
 ## De Morganove zakony
