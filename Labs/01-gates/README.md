@@ -1,13 +1,16 @@
-#1. cvičenie
-##GitHub link
+# 1. cvičenie
 
-#2. cvičenie
+## GitHub link
+
+# 2. cvičenie
+
 ## De Morganove zakony
 
-###vzorec
+### vzorec
+
 ![Vzorce](/Labs/01-gates/Images/vzorec1.gif)
 
-###VHDL kód
+### VHDL kód
 ```
 architecture dataflow of gates is
 begin
@@ -17,11 +20,11 @@ begin
 
 end architecture dataflow;
 ```
-###Screenshot
+### Screenshot
 
-###EDA Playground link
+### EDA Playground link
 
-###Tabulka
+### Tabulka
 | **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a)** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 | 1 | 1 |
