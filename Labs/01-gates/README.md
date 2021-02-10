@@ -31,7 +31,7 @@ end architecture dataflow;
 https://www.edaplayground.com/x/E2GK
 
 ### Tabulka
-| **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a)** | **f(c,b,a)** |
+| **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a)nand** | **f(c,b,a)nor** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 | 1 | 1 |
 | 0 | 0 | 1 | 1 | 1 | 0 |
