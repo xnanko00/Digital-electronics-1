@@ -22,7 +22,11 @@ end architecture dataflow;
 ```
 ### Screenshot
 
+![Screenshot](/Labs/01-gates/Images/scr1.png)
+
 ### EDA Playground link
+
+https://www.edaplayground.com/x/E2GK
 
 ### Tabulka
 | **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a)** | **f(c,b,a)** |
