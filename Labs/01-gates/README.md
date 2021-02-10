@@ -5,11 +5,7 @@
 ## De Morganove zakony
 
 ###vzorec
-\begin{align*}
-    f(c,b,a) =&~ \overline{b}\,a + \overline{c}\,\overline{b}\\
-    f(c,b,a)_{\textup{NAND}} =&~ \overline{abc}\ =&~ \overline{a}+\overline{b}+\overline{c}\\
-    f(c,b,a)_{\textup{NOR}} =&~ \overline{a+b+c}\ =&~ \overline{a}\,\overline{b}\,\overline{c}\\
-\end{align*}
+![Vzorce](/Images/vzorec1.gif)
 
 ###VHDL kód
 ```
