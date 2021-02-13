@@ -13,7 +13,7 @@ https://github.com/xnanko00/Digital-electronics-1
 ![Vzorce](/Labs/01-gates/Images/vzorec1.gif)
 
 ### VHDL kód
-```
+```VHDL
 architecture dataflow of gates is
 begin
     f_o  <= ((not b_i) and b_i) or ((not c_i) and (not b_i));
