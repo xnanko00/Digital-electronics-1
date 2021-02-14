@@ -13,12 +13,12 @@ https://github.com/xnanko00/Digital-electronics-1
 ![Vzorce](/Labs/01-gates/Images/vzorec1.gif)
 
 ### VHDL kód
-```
+```VHDL
 architecture dataflow of gates is
 begin
-    f_o  <= ((not b_i) and b_i) or ((not c_i) and (not b_i));
-    fnand_o <= (not(a_i) or not(b_i) or not(c_i));
-    fnor_o <= (not(a_i) and not(b_i) and not(c_i));
+	f_i <= ((not b_i) and a_i) or ((not c_i) and (not b_i));
+    fnand_i <= not (not ((not b_i) and a_i) and (not((not c_i) and (not b_i))));
+    fnor_i <= not (b_i or (not a_i)) or (not (c_i or b_i));
 
 end architecture dataflow;
 ```
@@ -31,13 +31,13 @@ end architecture dataflow;
 https://www.edaplayground.com/x/E2GK
 
 ### Tabulka
-| **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a)nand** | **f(c,b,a)nor** |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| 0 | 0 | 0 | 1 | 1 | 1 |
-| 0 | 0 | 1 | 1 | 1 | 0 |
-| 0 | 1 | 0 | 0 | 1 | 0 |
-| 0 | 1 | 1 | 0 | 1 | 0 |
-| 1 | 0 | 0 | 0 | 1 | 0 |
-| 1 | 0 | 1 | 0 | 1 | 0 |
-| 1 | 1 | 0 | 0 | 1 | 0 |
-| 1 | 1 | 1 | 0 | 0 | 0 |
+| **c** | **b** |**a** | **f(c,b,a)** |
+| :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 1 |
+| 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 0 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 0 |
+| 1 | 1 | 1 | 0 |
