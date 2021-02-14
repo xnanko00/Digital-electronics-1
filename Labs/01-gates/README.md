@@ -43,7 +43,7 @@ https://www.edaplayground.com/x/E2GK
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
-# 3. cvičenie
+/*# 3. cvičenie
 
 ## Boolova algebra
 
@@ -78,8 +78,8 @@ https://www.edaplayground.com/x/dGbB
 | 0 | 0 | 1 | 0 | 0 |
 | 1 | 0 | 1 | 1 | 1 |
 
-
-# 4. cvičenie 
+*/
+# 3. cvičenie 
 
 ## Distributive laws 
 
