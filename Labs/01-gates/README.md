@@ -80,8 +80,8 @@ https://www.edaplayground.com/x/dGbB
 
 |**x** | **x and not x** | **x or not x** | **x or x or x** | **x and x and x** |
 | :-: | :-: |  :-: | :-: |  :-: |
-| 0 | 1 | 0 | 1 | 0 | 0 |
-| 1 | 1 | 0 | 1 | 1 | 1 |
+| 0 | 1 | 0 | 0 | 0 |
+| 1 | 1 | 0 | 1 | 1 |
 
 
 | **z** | **y** |**x** | **x and y or x and z** | **x and (y or z)** | **(x or y) and (x or z)**  | **x or (y and z)**  |
