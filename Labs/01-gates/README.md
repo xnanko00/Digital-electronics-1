@@ -91,7 +91,6 @@ https://www.edaplayground.com/x/dGbB
 ```VHDL
 architecture dataflow of gates is
 begin
-
     f10_o <= (x_i and y_i) or (x_i and z_i);
     f11_o <= (x_i and (y_i or z_i));
     f20_o <= (x_i or y_i) and (x_i or z_i);
@@ -106,7 +105,7 @@ end architecture dataflow;
 
 ### EDA Playground link
 
-https://www.edaplayground.com/x/dGbB
+https://www.edaplayground.com/x/8Nqu
 
 ### Tabuľka
 
