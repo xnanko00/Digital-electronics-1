@@ -10,7 +10,7 @@ https://github.com/xnanko00/Digital-electronics-1
 
 ### vzorec
 
-![Vzorce](/Labs/01-gates/Images/vzorec1.gif)
+![Vzorce](/Images/01-gates/vzorec1.gif)
 
 ### VHDL kód
 ```VHDL
@@ -24,7 +24,7 @@ end architecture dataflow;
 ```
 ### Screenshot
 
-![Screenshot](/Labs/01-gates/Images/scr1.png)
+![Screenshot](/Images/01-gates/scr1.png)
 
 ### EDA Playground link
 
@@ -49,7 +49,7 @@ https://www.edaplayground.com/x/E2GK
 
 ### vzorec
 
-![Vzorce](/Labs/01-gates/Images/vzorec2.gif)
+![Vzorce](/Images/01-gates/vzorec2.gif)
 
 ### VHDL kód
 ```VHDL
@@ -65,7 +65,7 @@ end architecture dataflow;
 
 ### Screenshot
 
-![Screenshot](/Labs/01-gates/Images/scr2.png)
+![Screenshot](/Images/01-gates/scr2.png)
 
 ### EDA Playground link
 
@@ -85,7 +85,7 @@ https://www.edaplayground.com/x/dGbB
 
 ### vzorec
 
-![Vzorce](/Labs/01-gates/Images/vzorec3.gif)
+![Vzorce](/Images/01-gates/vzorec3.gif)
 
 ### VHDL kód
 ```VHDL
@@ -101,7 +101,7 @@ end architecture dataflow;
 
 ### Screenshot
 
-![Screenshot](/Labs/01-gates/Images/scr3.png)
+![Screenshot](/Images/01-gates/scr3.png)
 
 ### EDA Playground link
 
