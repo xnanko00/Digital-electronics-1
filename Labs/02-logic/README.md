@@ -36,15 +36,15 @@
 
 #### B = A
 
-![b equals a](/Images/02-logic/photo1.png)
+![b equals a](/Images/02-logic/photo1.png | width=400)
 
 #### B > A
 
-![b is greater than a](/Images/02-logic/photo2.png)
+![b is greater than a](/Images/02-logic/photo2.png | width=400)
 
 #### B < A
 
-![b is less than a](/Images/02-logic/photo3.png)
+![b is less than a](/Images/02-logic/photo3.png | width=400)
 
 ### SoP and PoS
 
