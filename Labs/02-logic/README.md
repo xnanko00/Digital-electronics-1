@@ -36,16 +36,15 @@
 
 #### B = A
 
-![b equals a](/Images/02-logic/photo1.png | width="400")
+<img src="/Images/02-logic/photo1.png" alt="b equals a" width="400" >
 
 #### B > A
 
-![b is greater than a](/Images/02-logic/photo2.png | width="400")
+<img src="/Images/02-logic/photo2.png" alt="b is greater than a" width="400" >
 
 #### B < A
 
 <img src="/Images/02-logic/photo3.png" alt="b is less than a" width="400" >
-![b is less than a](/Images/02-logic/photo3.png | width="400")
 
 ### SoP and PoS
 
