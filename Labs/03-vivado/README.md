@@ -22,3 +22,29 @@
 | LED13 | V14 | SW13 | U12 |
 | LED14 | V12 | SW14 | U11 |
 | LED15 | V11 | SW15 | V10 |
+
+# 2. cvičenie
+
+## Two-bit wide 4-to-1 multiplexer
+
+### VHDL architecture (`mux_2bit_4to1.vhd`)
+
+```vhdl
+
+```
+
+### VHDL stimulus process  (`tb_mux_2bit_4to1.vhd`)
+
+```vhdl
+
+```
+
+### Screenshot with waveforms
+
+![Screenshot](/Images/03-vivado/scr1.png)
+
+# 3. cvičenie
+
+## A Vivado tutorial
+
+### Tutorial
