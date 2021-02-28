@@ -150,6 +150,3 @@ end architecture testbench;
 
 ![Screenshot](/Images/03-vivado/tutorial/14.png)
 
-#### 15. krok
-
-![Screenshot](/Images/03-vivado/tutorial/15.png)
