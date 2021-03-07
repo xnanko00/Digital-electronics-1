@@ -42,7 +42,7 @@ begin
 end architecture Behavioral;
 ```
 
-### VHDL stimulus process  (`tb_mux_2bit_4to1.vhd`)
+### VHDL stimulus process (`tb_mux_2bit_4to1.vhd`)
 
 ```vhdl
 p_stimulus : process
