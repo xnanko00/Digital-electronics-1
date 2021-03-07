@@ -106,6 +106,9 @@ begin
 
 end Behavioral;
 ```
+### Screenshot with waveforms
+
+![Screenshot](/Images/04-segment/scr1.png)
 
 ### VHDL source (`top.vhd`)
 
