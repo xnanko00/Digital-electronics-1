@@ -58,10 +58,49 @@ begin
 end architecture behavioral;
 ```
 
-### VHDL stimulus process (`tb_cnt_up_down`)
+### VHDL reset and stimulus process (`tb_cnt_up_down`)
 
 ```vhdl
-asserts
+    --------------------------------------------------------------------
+    -- Reset generation process
+    --------------------------------------------------------------------
+    p_reset_gen : process
+    begin
+        s_reset <= '0';
+        wait for 12 ns;
+        
+        -- Reset activated
+        s_reset <= '1';
+        wait for 73 ns;
+
+        s_reset <= '0';
+        wait;
+    end process p_reset_gen;
+
+    --------------------------------------------------------------------
+    -- Data generation process
+    --------------------------------------------------------------------
+    p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;
+
+        -- Enable counting
+        s_en     <= '1';
+        
+        -- Change counter direction
+        s_cnt_up <= '1';
+        wait for 380 ns;
+        s_cnt_up <= '0';
+        wait for 220 ns;
+
+        -- Disable counting
+        s_en     <= '0';
+
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
+
+end architecture testbench;
 ```
 
 ### Screenshot with waveforms
