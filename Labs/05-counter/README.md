@@ -114,6 +114,15 @@ end architecture testbench;
 ### VHDL architecture (`top.vhd`)
 
 ```vhdl
+-- Architecture body for top level
+------------------------------------------------------------------------
+architecture Behavioral of top is
+
+    -- Internal clock enable
+    signal s_en  : std_logic;
+    -- Internal counter
+    signal s_cnt : std_logic_vector(4 - 1 downto 0);
+    
 begin
 
     --------------------------------------------------------------------
