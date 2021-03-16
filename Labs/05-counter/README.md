@@ -114,6 +114,23 @@ end architecture testbench;
 ### VHDL architecture (`top.vhd`)
 
 ```vhdl
+entity top is
+port(
+        CLK100MHZ      : in  std_logic;       -- Main clock
+        BTNC    : in  std_logic;                         -- Synchronous reset
+        SW      : in  std_logic_VECTOR(0 downto 0);      -- Enable input
+        LED     : out std_logic_VECTOR(3 downto 0);      -- Direction of the counter
+        CA      : out std_logic;
+        CB      : out std_logic;
+        CC      : out std_logic;
+        CD      : out std_logic;
+        CE      : out std_logic;
+        CF      : out std_logic;
+        CG      : out std_logic;
+        AN      : out std_logic_VECTOR(8-1 downto 0)
+    );
+end top;
+
 -- Architecture body for top level
 ------------------------------------------------------------------------
 architecture Behavioral of top is
@@ -122,7 +139,7 @@ architecture Behavioral of top is
     signal s_en  : std_logic;
     -- Internal counter
     signal s_cnt : std_logic_vector(4 - 1 downto 0);
-    
+
 begin
 
     --------------------------------------------------------------------
@@ -180,4 +197,4 @@ end architecture Behavioral;
 
 ### Image of the top layer including both counters, ie a 4-bit bidirectional counter from Part 4 and a 16-bit counter with a 10 ms time base 
 
-![Screenshot](/Images/05-counter/img.png)
+![Screenshot](/Images/05-counter/img.pdf)
