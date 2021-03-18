@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Users/matej/Desktop/Documents/FEKT/DE1/05-counter/05-counter.srcs/sim_1/new/tb_clock_enable.vhd,1615385618,vhdl,,,,tb_clock_enable,,,,,,,,
+D:/Users/matej/Desktop/Documents/FEKT/DE1/05-counter/05-counter.srcs/sim_1/new/tb_cnt_up_down.vhd,1615387188,vhdl,,,,tb_cnt_up_down,,,,,,,,
+D:/Users/matej/Desktop/Documents/FEKT/DE1/05-counter/05-counter.srcs/sources_1/new/clock_enable.vhd,1615385584,vhdl,D:/Users/matej/Desktop/Documents/FEKT/DE1/05-counter/05-counter.srcs/sim_1/new/tb_clock_enable.vhd,,,clock_enable,,,,,,,,
+D:/Users/matej/Desktop/Documents/FEKT/DE1/05-counter/05-counter.srcs/sources_1/new/cnt_up_down.vhd,1615388236,vhdl,D:/Users/matej/Desktop/Documents/FEKT/DE1/05-counter/05-counter.srcs/sim_1/new/tb_cnt_up_down.vhd,,,cnt_up_down,,,,,,,,

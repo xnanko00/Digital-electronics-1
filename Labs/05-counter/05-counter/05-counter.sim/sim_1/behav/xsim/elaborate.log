@@ -1,0 +1,16 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 7ac2aedb0b0b4aff9d831b1bc18ecb61 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cnt_up_down_behav xil_defaultlib.tb_cnt_up_down -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=5)\]
+Compiling architecture testbench of entity xil_defaultlib.tb_cnt_up_down
+Built simulation snapshot tb_cnt_up_down_behav
