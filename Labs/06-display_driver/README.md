@@ -37,7 +37,7 @@
 
 #### Figure
 
-![Screenshot](/Images/05-counter/scr1.png)
+![Screenshot](/Images/06-display_driver/scr1.png)
 
 # 2. Cvičenie
 
@@ -97,7 +97,7 @@ end architecture testbench;
 
 ### Screenshot with waveforms
 
-![Screenshot](/Images/05-counter/scr2.png)
+![Screenshot](/Images/06-display_driver/scr2.png)
 
 ### VHDL architecture (`top.vhd`)
 
@@ -159,4 +159,4 @@ end architecture Behavioral;
 
 ### Image of the driver schematic
 
-![Screenshot](/Images/05-counter/img1.png)
+![Screenshot](/Images/06-display_driver/img1.png)
