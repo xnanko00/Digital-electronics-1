@@ -77,15 +77,33 @@ end architecture Behavioral;
 ### VHDL process (`tb_driver_7seg_4digits`)
 
 ```vhdl
-    p_stimulus : process
+   p_stimulus : process
     begin
         report "Stimulus process started" severity note;
 
+        report "Testing 3" severity note;
         s_data3 <= "0011";
+        wait for 10 ns;
+        assert (s_seg_o = "0000110")
+        report "Test failed for input combination: 3" severity error;
+        
+        report "Testing 1" severity note;
         s_data2 <= "0001";
+        wait for 10 ns;
+        assert (s_seg_o = "1001111")
+        report "Test failed for input combination: 1" severity error; 
+        
+        report "Testing 4" severity note;
         s_data1 <= "0100";
+        wait for 10 ns;
+        assert (s_seg_o = "1001100")
+        report "Test failed for input combination: 4" severity error; 
+        
+        report "Testing 2" severity note;
         s_data0 <= "0010";
-
+        wait for 10 ns;
+        assert (s_seg_o = "0010010")
+        report "Test failed for input combination: 2" severity error; 
                
         s_dp_i <= "0111";
 
